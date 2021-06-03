@@ -1,0 +1,21 @@
+body{
+    background-color: deepskyblue;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+table, td{
+    border-collapse: collapse;
+    border: 2px solid gray;
+    margin: auto;
+}
+tr.even{
+    background-color: turquoise;
+}
+tr.odd{
+    background-color: lightskyblue;
+}
+thead{
+    background-color: dodgerblue;
+}
