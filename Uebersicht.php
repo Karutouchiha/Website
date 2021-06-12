@@ -6,17 +6,18 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Schüler: Homepage</title>
+    <title>Übersicht</title>
     <link href="Design.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <nav class="nav">
-    <img class="icon" src="Icons/logo.png" width="30" height="30">
+    <img class="icon" src="Icons/logo_weiß.png" width="30" height="30">
     <a href="Home.php">Home</a>
-    <a href="Kontakt.php">Kontakt</a>
+    <a href="Info.php">Info</a>
     <a href="Uebersicht.php">Übersicht</a>
     <a href="Aktuelles.php">Aktuelles</a>
-    <a href="Info.php">Info</a>
+    <a href="Kontakt.php">Kontakt</a>
+    <a href="Download.php">Download</a>
     <a target="_blank" href="https://www.google.at/maps/place/H%C3%B6here+technische+Bundeslehranstalt+Wels/@48.1576267,14.0295437,17z/data=!4m2!3m1!1s0x0000000000000000:0x70f97841b0945b1c">Lage</a>
 </nav>
 <article>
@@ -41,6 +42,11 @@
             </div>
             <div class="b2" id="aktuellesbox">
                 <h2><a href="Aktuelles.php">Aktuelles</a></h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat.</p>
+            </div>
+            <div class="b2" id="downloadbox">
+                <h2><a href="Download.php">Download</a></h2>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                     labore et dolore magna aliquyam erat.</p>
             </div>

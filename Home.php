@@ -10,6 +10,7 @@
     <link href="Design_Home.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+<!-- Sidebar+navi -->
 <aside id="sidebar">
     <div id="side_content">
     <img src="Icons/logo_ohne_rand.png">
@@ -28,18 +29,23 @@
         <div id="nav">
             <ul>
                 <li>
-                    <a href="Aktuelles.php">
-                        <img class="icon" src="Icons/megafon.png" width="20" height="20">Aktuelles
-                    </a>
-                </li>
-                <li>
                     <a href="Uebersicht.php">
                         <img class="icon" src="Icons/liste.png" width="20" height="20">Übersicht
                     </a>
                 </li>
                 <li>
+                    <a href="Aktuelles.php">
+                        <img class="icon" src="Icons/megafon.png" width="20" height="20">Aktuelles
+                    </a>
+                </li>
+                <li>
                     <a href="Kontakt.php">
                         <img class="icon" src="Icons/at.png" width="20" height="20">Kontakt
+                    </a>
+                </li>
+                <li>
+                    <a href="Download.php">
+                        <img class="icon" src="Icons/download.png" width="20" height="20">Download
                     </a>
                 </li>
                 <li>
@@ -51,24 +57,33 @@
         </div>
     </div>
 </aside>
+<!-- textfeld -->
     <article>
                 <h2><a href="Info.php">Info</a></h2>
+            <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                 labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            </p>
                 <h3>no sea:</h3>
+            <p>
                 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
                 et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
                 <h4>dolore</h4>
+            <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
                 sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
                 no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
                 <h4>minim veniam</h4>
+            <p>
                 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
                 dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
                 luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer
                 adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            </p>
     </article>
 </body>
 </html>

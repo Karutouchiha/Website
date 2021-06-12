@@ -2,6 +2,7 @@
  *Name: Sarah Haböck *
  *Datum: 04.06.2021  *
  *********************/
+/*Allgemeine festlegungen*/
 body{
     background-color: #4365ad;
     background-image: linear-gradient(to bottom,white 400px, #4365ad 20px);
@@ -43,29 +44,45 @@ h4{
 }
 .nav a{
     float: top;
-    color: #c7c7c7;
+    color: #d4d4d4;
     text-decoration: none;
     border-right: 5px solid #4365ad;
     font-size: 30px;
     align-self: end;
     text-align: center;
 }
-.icon{
-    transform: translate(0px ,4px);
+.nav a:hover {
+    color: #c7c7c7;
+    text-decoration: underline;
 }
-table, td{
-    border-collapse: collapse;
-    border: 2px solid #c7c7c7;
-    margin: auto;
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-thead{
-    background-color: #c7c7c7;
+/*Kontakt*/
+#kontaktinfo{
+    width: 360px;
+    position: absolute;
+    right: 0;
+    margin: 100px;
+}
+.sidebox{
+    right: 0;
+    margin: 100px;
+    background-color: #d4d4d4;
+}
+#kontaktinfo p{
+    width: 220px;
+    padding: 20px;
+    background-color: #d4d4d4;
+    border: 1px solid black;
 }
 .uberbox,.underbox{
     margin: auto;
     position: relative;
 }
+/*Übersicht*/
 .b1,.b2,.b3{
     background-color: #d4d4d4;
     border: 2px solid black;
@@ -87,7 +104,7 @@ thead{
     width: 200px;
     position: relative;
     left: 50px;
-    top: 10px;
+    top: 5px;
 }
 #infobox{
     position: absolute;
@@ -96,23 +113,16 @@ thead{
 }
 #aktuellesbox{
     position: absolute;
-    left: 0;
-    top: 200px;
+    left: 90px;
+    top: 190px;
+}
+#downloadbox{
+    position: relative;
+    left: 360px;
+    top: 13px;
 }
 #kontakt{
     position: relative;
     top: 23px;
-    left: 450px;
-}
-#Impressum{
-
-}
-#kontaktinfo{
-    
-}
-#kontaktinfo p{
-    width: 240px;
-    padding: 20px;
-    background-color: #d4d4d4;
-    border: 1px solid black;
+    left: 225px;
 }
